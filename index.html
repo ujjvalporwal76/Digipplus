@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Digipplus</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/a5a4f1cca3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center  nav-ul" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#" onclick="home()">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="job()">My Jobs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="pay()">My Payment</a>
+          </li>
+
+        </ul>
+
+      </div>
+      <i class="login-icon fa-solid fa-right-to-bracket fa-2x"></i>
+    </div>
+  </nav>
+
+  <section id="home-section">
+    <div class="home">
+      <div class="home-heading">
+        <img src="images/logo2.jpg" alt="home-logo" />
+        <h1>Welcome to Digipplus</h1>
+      </div>
+      <div class="announcement-box">
+        <h3>Announcements <i class="fa-solid fa-bullhorn"></i></h3>
+        <div class="announcement-in-box">
+          <p>We are working on adding Internships and Project details. So login and fillup your details.</p>
+        </div>
+      </div>
+      <div class="home-box">
+        <h3>Work Action</h3>
+        <div class="home-in-box">
+          <p>View Intern Data</p>
+        </div>
+      </div>
+      <div class="home-box">
+        <h3>Internships</h3>
+        <div class="home-in-box">
+          <h4>Solution Writing</h4>
+          <p>Write your Solutions</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section id="job-section" class="hidden">
+    <div class="job-big-box">
+      <div class="job-box">
+        <h3>Jobs</h3>
+        <div class="job-in-box">
+          <p>Solution Writing</p>
+        </div>
+      </div>
+      <div class="job-box">
+        <h3>For Job Application</h3>
+        <div class="job-in-box">
+          <p>Screening Task</p>
+        </div>
+      </div>
+      <div class="job-box">
+        <h3>Application Status</h3>
+        <div class="job-in-box">
+          <p>Job Application Status</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="job-out-box">
+      <p>Applied for this job.</p>
+      <p>for the position of intern.</p>
+    </div>
+    <div class="job-announcement-box">
+      <h3>Announcements <i class="fa-solid fa-bullhorn"></i></h3>
+      <div class="job-announcement-in-box">
+        <p>We are working on adding Internships and Project details. So login and fillup your details.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="payment-section" class="hidden">
+    <div class="pay-nav">
+      <h3 class="pay-nav-heading">Payment Navigation</h3>
+      <div class="pay-nav-item">
+        <h4>Invoices</h4>
+      </div>
+      <div class="pay-nav-item">
+        <h4>My Bank Details</h4>
+      </div>
+      <div class="pay-nav-item">
+        <h4>Saved Card</h4>
+      </div>
+    </div>
+
+    <div class="pay-det">
+      <h4>Last Payment Details</h4>
+      <p>Payment Date: <span>Oct. 25, 2022, 11:07 a.m.</span> Amount Paid: <span>₹3150</span> </p>
+      <p>Payment Made For Project</p>
+      <p>K10 Maths Text Book Solution</p>
+      <p>K12 Maths Text Book Solutions</p>
+    </div>
+
+  </section>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

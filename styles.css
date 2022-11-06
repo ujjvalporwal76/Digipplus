@@ -1,0 +1,120 @@
+p {
+  margin: 5px;
+}
+
+h3 {
+  margin: 2px 0 0 15px;
+}
+
+h4 {
+  margin: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.nav-ul {
+  margin-right: 125px;
+}
+
+.navbar-brand img {
+  width: 125px;
+}
+
+.nav-link:hover {
+  color: #fcd667;
+  text-decoration: underline;
+}
+
+.home-heading {
+  text-align: center;
+}
+
+.home-box, .job-box, .pay-nav {
+  color: orange;
+  margin: 20px;
+}
+
+.home-in-box, .job-out-box {
+  display: inline-block;
+  box-shadow: 4px 4px 4px 4px orange;
+  margin: 20px;
+  color: black;
+}
+
+.announcement-box {
+  margin: 10px;
+}
+
+.announcement-in-box {
+  background-color: lightblue;
+  border-radius: 5px;
+  margin: 10px;
+  height: 50px;
+  font-size: 25px;
+}
+
+.announcement-in-box, .job-in-box p {
+  margin: 5px;
+  color: #1520a6;
+}
+
+.job-big-box {
+  display: inline-block;
+}
+
+.job-in-box {
+  background-color: lightblue;
+  border-radius: 5px;
+  margin: 10px;
+  height: 50px;
+  font-size: 25px;
+  display: inline-block;
+}
+
+.job-announcement-box {
+  margin: 5px 0 5px auto;
+  width: 25%;
+  float: right;
+}
+
+.job-announcement-in-box {
+  color: #1520a6;
+  background-color: lightblue;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 25px;
+  display: inline-block;
+}
+
+.pay-nav {
+  display: inline-block;
+}
+
+.pay-nav-heading {
+  margin: 5px 5px 15px 10px;
+}
+
+.pay-nav-item {
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  background-color: #fff;
+  border: 2px solid;
+  margin: 3px 5px;
+}
+
+.pay-nav-item:hover {
+  background-color: grey;
+}
+
+.pay-det {
+  border: 2px solid;
+  width: 50%;
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
